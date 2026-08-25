@@ -8,24 +8,9 @@ import { FloatingActionButton } from "./components/common/floating-action-button
 import { HomeView } from "./components/views/home-view.jsx";
 import { NotFoundView } from "./components/views/not-found-view.jsx";
 
-/**
- * Determine dynamic base router scope for GitHub Pages, XAMPP subdirectory, and Local Dev
- * @returns {string}
- */
-function getRouterScope() {
-	if (typeof window === "undefined") return "/";
-	const pathname = window.location.pathname;
-	if (pathname.includes("/unpam-agenda")) {
-		return "/unpam-agenda";
-	}
-	return "/";
-}
-
 export function App() {
-	const routerScope = getRouterScope();
-
 	return (
-		<LocationProvider scope={routerScope}>
+		<LocationProvider>
 			<ThemeProvider>
 				<AgendaProvider>
 					<div className="min-h-screen flex flex-col bg-slate-100/70 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased">
@@ -43,11 +28,32 @@ export function App() {
 								}
 							>
 								<Router>
+									{/* Root / Development & Custom Domain routes */}
 									<Route path="/" component={HomeView} />
 									<Route
 										path="/index.html"
 										component={HomeView}
 									/>
+
+									{/* GitHub Pages & Subdirectory routes */}
+									<Route
+										path="/unpam-agenda"
+										component={HomeView}
+									/>
+									<Route
+										path="/unpam-agenda/index.html"
+										component={HomeView}
+									/>
+									<Route
+										path="/unpam-agenda/dist"
+										component={HomeView}
+									/>
+									<Route
+										path="/unpam-agenda/dist/index.html"
+										component={HomeView}
+									/>
+
+									{/* Fallback 404 for unknown routes */}
 									<Route default component={NotFoundView} />
 								</Router>
 							</ErrorBoundary>
