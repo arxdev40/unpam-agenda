@@ -1,0 +1,385 @@
+{
+	"semester": "Semester Ganjil 2026/2027",
+	"agenda": [
+		{
+			"dates": ["2026-08-31", "2026-08-31"],
+			"event": "Awal Perkuliahan Reguler A dan B Semester Gasal 2026/2027",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2026-08-31", "2026-08-31"],
+			"event": "Awal Perkuliahan Reguler CK dan CS Kelompok Mata Kuliah 2 Semester Gasal 2026/2027",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2026-08-31", "2026-09-19"],
+			"event": "Masa Upload Proposal Penelitian dan Pengabdian Kepada Masyarakat Semester Gasal 2026/2027",
+			"category": "Umum"
+		},
+		{
+			"dates": ["2026-08-31", "2026-08-31"],
+			"event": "Awal Pendaftaran Calon Mahasiswa Baru Gelombang 1",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2026-09-02", "2026-09-02"],
+			"event": "Batas Akhir Input dan Validasi Nilai Semester Antara Tahun Ajaran 2025/2026",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2026-09-03", "2026-09-03"],
+			"event": "Awal Perkuliahan Reguler CK Kelompok Mata Kuliah 1",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2026-09-05", "2026-09-05"],
+			"event": "Awal Perkuliahan Reguler CS Kelompok Mata Kuliah 1",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2026-10-13", "2026-10-13"],
+			"event": "Batas Akhir Pelunasan Biaya Kuliah Reguler A dan B sampai dengan Angsuran Ke-3 dan UTS",
+			"category": "Pembayaran dan Registrasi"
+		},
+		{
+			"dates": ["2026-10-15", "2026-10-15"],
+			"event": "Batas Akhir Pelunasan Biaya Kuliah Reguler CK dan CS sampai dengan Angsuran Ke-3 dan UTS",
+			"category": "Pembayaran dan Registrasi"
+		},
+		{
+			"dates": ["2026-10-19", "2026-10-24"],
+			"event": "Pekan UTS",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2026-10-19", "2026-10-27"],
+			"event": "Pendaftaran UTS Susulan",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2026-10-29", "2026-10-29"],
+			"event": "Pelaksanaan UTS Susulan",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2026-10-31", "2026-10-31"],
+			"event": "Pelaksanaan UTS Susulan",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2026-11-02", "2026-11-02"],
+			"event": "Batas Akhir Input Nilai UTS",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2026-11-09", "2026-11-14"],
+			"event": "Periode 1 Pengajuan Kolektif Dokumen Pendukung Ralat/Pengganti Ijazah",
+			"category": "Pembayaran dan Registrasi"
+		},
+		{
+			"dates": ["2026-11-14", "2026-11-14"],
+			"event": "Batas Akhir Validasi Checkpoint 1",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2026-11-17", "2026-11-17"],
+			"event": "Akhir Pendaftaran Calon Mahasiswa Baru Gelombang 1",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2026-11-18", "2026-11-18"],
+			"event": "Pembukaan Penerimaan Calon Mahasiswa Baru Gelombang 2",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2026-11-20", "2026-11-23"],
+			"event": "SPMB Gelombang 1",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2026-11-26", "2026-11-26"],
+			"event": "Pengumuman Hasil SPMB Gelombang 1 dan Awal Registrasi Mahasiswa Baru Gelombang 1",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2026-12-08", "2026-12-08"],
+			"event": "Batas Akhir Pelunasan Biaya Kuliah dan Pembayaran UAS Reguler A dan B",
+			"category": "Pembayaran dan Registrasi"
+		},
+		{
+			"dates": ["2026-12-10", "2026-12-10"],
+			"event": "Batas Akhir Pelunasan Biaya Kuliah dan Pembayaran UAS Reguler CK dan CS",
+			"category": "Pembayaran dan Registrasi"
+		},
+		{
+			"dates": ["2026-12-14", "2026-12-19"],
+			"event": "Pekan UAS",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2026-12-14", "2027-01-02"],
+			"event": "Pendaftaran UTS Revisi dan UAS Susulan/Revisi",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2026-12-14", "2026-12-14"],
+			"event": "Batas Akhir Registrasi Mahasiswa Baru Gelombang 1",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2026-12-23", "2026-12-23"],
+			"event": "Batas Akhir Input dan Validasi Nilai Mahasiswa",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2026-12-24", "2026-12-24"],
+			"event": "Cuti Bersama Kelahiran Yesus Kristus",
+			"category": "Libur"
+		},
+		{
+			"dates": ["2026-12-25", "2026-12-25"],
+			"event": "Kelahiran Yesus Kristus",
+			"category": "Libur"
+		},
+		{
+			"dates": ["2026-12-26", "2026-12-31"],
+			"event": "Libur Akhir Tahun",
+			"category": "Libur"
+		},
+		{
+			"dates": ["2027-01-01", "2027-01-01"],
+			"event": "Libur Tahun Baru Masehi",
+			"category": "Libur"
+		},
+		{
+			"dates": ["2027-01-01", "2027-01-15"],
+			"event": "Laporan Akhir Pengabdian kepada Masyarakat",
+			"category": "Umum"
+		},
+		{
+			"dates": ["2027-01-04", "2027-01-09"],
+			"event": "Input Nilai Rekognisi Kegiatan Ilmiah",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-05", "2027-01-05"],
+			"event": "Isra Miraj Nabi Muhammad SAW",
+			"category": "Libur"
+		},
+		{
+			"dates": ["2027-01-07", "2027-01-07"],
+			"event": "Pelaksanaan UTS Revisi dan UAS Susulan/Revisi",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2027-01-09", "2027-01-09"],
+			"event": "Pelaksanaan UTS Revisi dan UAS Susulan/Revisi",
+			"category": "UTS/UAS"
+		},
+		{
+			"dates": ["2027-01-11", "2027-01-11"],
+			"event": "Batas Akhir Perubahan Nilai",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-11", "2027-01-16"],
+			"event": "Update dan Pemetaan Rumpun Ilmu Dosen",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-12", "2027-01-12"],
+			"event": "Akhir Pendaftaran Calon Mahasiswa Baru Gelombang 2",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-01-14", "2027-01-14"],
+			"event": "Batas Akhir Validasi Ubah Nilai Program Studi",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-15", "2027-01-18"],
+			"event": "SPMB Gelombang 2",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-01-16", "2027-01-16"],
+			"event": "Akhir Unggah Dokumen PAK",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-16", "2027-01-22"],
+			"event": "Pelaporan SISKEMU",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-18", "2027-01-23"],
+			"event": "Pengisian Kesediaan Mengajar Dosen",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-18", "2027-01-26"],
+			"event": "Heregistrasi Mahasiswa Lama",
+			"category": "Pembayaran dan Registrasi"
+		},
+		{
+			"dates": ["2027-01-21", "2027-01-21"],
+			"event": "Pengumuman Hasil SPMB Gelombang 2 dan Awal Registrasi Mahasiswa Baru Gelombang 2",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-01-25", "2027-01-25"],
+			"event": "Batas Akhir Pengumpulan Data Kebutuhan ASC System",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-25", "2027-01-25"],
+			"event": "Batas Akhir Pengumpulan Data Batas BKD Dosen Level 1-4",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-27", "2027-01-27"],
+			"event": "Rapat Pleno Pemeringkatan",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-27", "2027-01-28"],
+			"event": "Generate dan/atau Penggabungan Kelas",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-29", "2027-01-29"],
+			"event": "Batas Akhir Registrasi Mahasiswa Baru Gelombang 2",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-01-29", "2027-01-29"],
+			"event": "Generate ASC System (Hingga PMB Gelombang 1)",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-30", "2027-02-03"],
+			"event": "Pengisian Jadwal Kosong Di ASC System",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-01-30", "2027-02-09"],
+			"event": "Penyusunan Jadwal Mahasiswa Baru Gelombang 2",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-01-30", "2027-01-30"],
+			"event": "PKKMB Reguler B dan CS UNPAM Kota Tangsel",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-02-01", "2027-02-05"],
+			"event": "Periode 2 Pengajuan Kolektif Dokumen Pendukung Ralat/Pengganti Ijazah",
+			"category": "Pembayaran dan Registrasi"
+		},
+		{
+			"dates": ["2027-02-02", "2027-02-02"],
+			"event": "PKKMB Unpam Kota Serang",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-02-03", "2027-02-03"],
+			"event": "Rapat Pimpinan dan Dosen UNPAM Kota Serang",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-04", "2027-02-04"],
+			"event": "PKKMB Reguler A dan CK UNPAM Kota Tangsel",
+			"category": "PMB"
+		},
+		{
+			"dates": ["2027-02-04", "2027-02-04"],
+			"event": "Batas Akhir Ujian Akhir Program Studi (UAPS)",
+			"category": "Umum"
+		},
+		{
+			"dates": ["2027-02-04", "2027-02-04"],
+			"event": "Unggah Jadwal ASC System ke SIA",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-04", "2027-02-09"],
+			"event": "Edit Jadwal Di SIA",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-05", "2027-02-05"],
+			"event": "Batas Akhir Input Nilai UAPS",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-05", "2027-02-05"],
+			"event": "Batas Akhir Semester Gasal 2026/2027",
+			"category": "Umum"
+		},
+		{
+			"dates": ["2027-02-05", "2027-02-05"],
+			"event": "Batas Akhir Validasi Checkpoint 2",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-06", "2027-02-06"],
+			"event": "Batas Akhir Semester Gasal Tahun Ajaran 2026/2027",
+			"category": "Umum"
+		},
+		{
+			"dates": ["2027-02-06", "2027-02-06"],
+			"event": "Tahun Baru Imlek",
+			"category": "Libur"
+		},
+		{
+			"dates": ["2027-02-08", "2027-02-09"],
+			"event": "Libur Awal Puasa",
+			"category": "Libur"
+		},
+		{
+			"dates": ["2027-02-10", "2027-02-10"],
+			"event": "Sinkronisasi Jadwal Ke My Unpam",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-10", "2027-02-13"],
+			"event": "Revisi KRS",
+			"category": "Umum"
+		},
+		{
+			"dates": ["2027-02-11", "2027-02-11"],
+			"event": "Rapat Pimpinan dan Dosen UNPAM Kota Tangsel",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-12", "2027-02-13"],
+			"event": "Sinkronisasi mentari.unpam.ac.id",
+			"category": "Tugas Dosen"
+		},
+		{
+			"dates": ["2027-02-13", "2027-02-13"],
+			"event": "Matrikulasi Program Pascasarjana",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2027-02-15", "2027-02-15"],
+			"event": "Awal Perkuliahan Reguler A dan B Semester Genap Tahun Ajaran 2026/2027",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2027-02-15", "2027-02-15"],
+			"event": "Awal Perkuliahan Reguler CK dan CS Kelompok Mata Kuliah 2 Semester Genap Tahun Ajaran 2026/2027",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2027-02-18", "2027-02-18"],
+			"event": "Awal Perkuliahan Reguler CK Kelompok Mata Kuliah 1 Semester Genap Tahun Ajaran 2026/2027",
+			"category": "Awal Perkuliahan"
+		},
+		{
+			"dates": ["2027-02-20", "2027-02-20"],
+			"event": "Awal Perkuliahan Reguler CS Kelompok Mata Kuliah 1 Semester Genap Tahun Ajaran 2026/2027",
+			"category": "Awal Perkuliahan"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "unpam-agenda",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"packageManager": "pnpm@11.23.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@preact/signals": "^2.11.1",
+		"@tailwindcss/vite": "^4.3.3",
+		"aos": "^2.3.4",
+		"daisyui": "^5.7.22",
+		"dayjs": "^1.11.23",
+		"lucide-preact": "^1.34.0",
+		"preact": "^10.29.8",
+		"preact-helmet": "4.0.0-alpha-3",
+		"preact-iso": "^2.12.2",
+		"redaxios": "^0.5.1",
+		"tailwindcss": "^4.3.3"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.10.6",
+		"@tailwindcss/typography": "^0.5.20",
+		"vite": "^8.2.2"
+	}
+}

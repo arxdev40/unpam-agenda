@@ -1,0 +1,171 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+	themes:
+		light --default,
+		dark --prefersdark;
+}
+
+/* Fast and standard dark variant for root data-theme="dark" */
+@custom-variant dark ([data-theme=dark] &);
+
+@theme {
+	--font-sans:
+		"Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif;
+	--font-mono:
+		"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+		"Liberation Mono", "Courier New", monospace;
+
+	--color-unpam-blue: #0284c7;
+	--color-unpam-dark: #0f172a;
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		font-family: var(--font-sans);
+		scrollbar-width: thin;
+		scrollbar-color: rgba(148, 163, 184, 0.5) transparent;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	[data-theme="dark"] html {
+		scrollbar-color: rgba(71, 85, 105, 0.6) transparent;
+	}
+
+	body {
+		overflow-x: hidden;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	body.modal-open {
+		overflow: hidden;
+		touch-action: none;
+	}
+
+	/* Themed text selection and caret */
+	::selection {
+		background-color: #0284c7;
+		color: #ffffff;
+	}
+
+	[data-theme="dark"] ::selection {
+		background-color: #38bdf8;
+		color: #020617;
+	}
+
+	input,
+	textarea {
+		caret-color: #0284c7;
+	}
+
+	[data-theme="dark"] input,
+	[data-theme="dark"] textarea {
+		caret-color: #38bdf8;
+	}
+
+	/* WebKit scrollbar for Chrome, Edge, Safari, Opera */
+	::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: rgba(148, 163, 184, 0.5);
+		border-radius: 9999px;
+	}
+
+	[data-theme="dark"] ::-webkit-scrollbar-thumb {
+		background-color: rgba(71, 85, 105, 0.6);
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background-color: rgba(100, 116, 139, 0.8);
+	}
+
+	/* GPU-efficient content rendering for large card lists */
+	.agenda-card {
+		content-visibility: auto;
+		contain-intrinsic-size: auto 175px;
+	}
+}
+
+/* Theme toggle transition active ONLY during user click */
+.theme-transitioning,
+.theme-transitioning *,
+.theme-transitioning *::before,
+.theme-transitioning *::after {
+	transition:
+		background-color 150ms ease-out,
+		border-color 150ms ease-out,
+		color 150ms ease-out !important;
+}
+
+/* Modal Smooth Animations */
+@keyframes modal-backdrop-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes modal-box-in {
+	from {
+		opacity: 0;
+		transform: scale(0.96) translateY(6px);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+}
+
+.animate-modal-backdrop {
+	animation: modal-backdrop-in 0.2s ease-out forwards;
+}
+
+.animate-modal-box {
+	animation: modal-box-in 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Motion sensitivity: prefers-reduced-motion graceful degradation */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Print Stylesheet */
+@media print {
+	header,
+	footer,
+	.no-print,
+	button,
+	.fab-container {
+		display: none !important;
+	}
+
+	body {
+		background: white !important;
+		color: black !important;
+	}
+
+	.card {
+		border: 1px solid #ddd !important;
+		break-inside: avoid;
+		box-shadow: none !important;
+	}
+}

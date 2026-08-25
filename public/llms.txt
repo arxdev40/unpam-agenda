@@ -1,0 +1,18 @@
+# UNPAM Agenda
+
+> Dashboard Kalender Akademik Interaktif Universitas Pamulang (UNPAM) Semester Ganjil 2026/2027.
+
+UNPAM Agenda adalah platform visualisasi jadwal akademik dan timeline perkuliahan resmi untuk mahasiswa dan dosen Universitas Pamulang.
+
+## Informasi Akademik
+- Universitas: Universitas Pamulang
+- Semester: Semester Ganjil 2026/2027
+- Data Kalender: https://arxdev40.github.io/unpam-agenda/kalender-akademik.json
+- URL Aplikasi: https://arxdev40.github.io/unpam-agenda/
+
+## Fitur Aplikasi
+- Pemantauan timeline akademik real-time (Sedang Berlangsung, Akan Datang, Selesai)
+- Pencarian dan filter kategori (PMB, Pembayaran & Registrasi, Awal Perkuliahan, UTS/UAS, Tugas Dosen, Hari Libur)
+- Ekspor kalender massal format .ICS untuk Google Calendar, Apple Calendar, dan Microsoft Outlook
+- Fitur favorit / bookmark agenda
+- Dukungan Progressive Web App (PWA) dan akses offline

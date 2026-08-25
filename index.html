@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+		/>
+		<title>
+			UNPAM Agenda - Kalender Akademik Interaktif Universitas Pamulang
+		</title>
+
+		<!-- Immediate Zero-Layout-Shift Theme Detector -->
+		<script>
+			(function () {
+				try {
+					var stored = localStorage.getItem("UNPAM_AGENDA_THEME");
+					var isDark = stored
+						? stored === "dark"
+						: window.matchMedia &&
+							window.matchMedia("(prefers-color-scheme: dark)")
+								.matches;
+					document.documentElement.setAttribute(
+						"data-theme",
+						isDark ? "dark" : "light",
+					);
+				} catch (e) {
+					document.documentElement.setAttribute(
+						"data-theme",
+						"light",
+					);
+				}
+			})();
+		</script>
+
+		<!-- Primary Meta Tags -->
+		<meta
+			name="title"
+			content="UNPAM Agenda - Kalender Akademik Interaktif Universitas Pamulang"
+		/>
+		<meta
+			name="description"
+			content="Dashboard kalender akademik interaktif Universitas Pamulang Semester Ganjil 2026/2027. Temukan jadwal perkuliahan, UTS/UAS, pembayaran, registrasi, PMB, dan hari libur secara real-time."
+		/>
+		<meta
+			name="keywords"
+			content="UNPAM, Universitas Pamulang, Kalender Akademik, Agenda UNPAM, Jadwal Kuliah UNPAM, UTS UNPAM, UAS UNPAM, PMB UNPAM, Semester Ganjil 2026 2027"
+		/>
+		<meta name="author" content="Universitas Pamulang" />
+		<meta name="robots" content="index, follow" />
+		<meta name="theme-color" content="#0284c7" />
+
+		<!-- PWA & Mobile Web App Meta Tags -->
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="UNPAM Agenda" />
+		<meta name="application-name" content="UNPAM Agenda" />
+		<meta name="msapplication-TileColor" content="#0284c7" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content="https://arxdev40.github.io/unpam-agenda/"
+		/>
+		<meta
+			property="og:title"
+			content="UNPAM Agenda - Kalender Akademik Interaktif Universitas Pamulang"
+		/>
+		<meta
+			property="og:description"
+			content="Dashboard kalender akademik interaktif Universitas Pamulang Semester Ganjil 2026/2027 berbasis timeline dan widget pengingat cerdas."
+		/>
+		<meta
+			property="og:image"
+			content="https://arxdev40.github.io/unpam-agenda/og-image.png"
+		/>
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:site_name" content="UNPAM Agenda" />
+		<meta property="og:locale" content="id_ID" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:url"
+			content="https://arxdev40.github.io/unpam-agenda/"
+		/>
+		<meta
+			name="twitter:title"
+			content="UNPAM Agenda - Kalender Akademik Interaktif Universitas Pamulang"
+		/>
+		<meta
+			name="twitter:description"
+			content="Dashboard kalender akademik interaktif Universitas Pamulang Semester Ganjil 2026/2027 berbasis timeline dan widget pengingat cerdas."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://arxdev40.github.io/unpam-agenda/og-image.png"
+		/>
+
+		<!-- Favicon & PWA Manifest -->
+		<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+		<link rel="icon" type="image/png" sizes="192x192" href="./icon.png" />
+		<link rel="apple-touch-icon" href="./icon.png" />
+		<link rel="manifest" href="./site.webmanifest" />
+
+		<!-- Preload critical icon asset -->
+		<link rel="preload" as="image" href="./icon.png" fetchpriority="high" />
+
+		<!-- AI Agent specification link -->
+		<link
+			rel="help"
+			href="./llms.txt"
+			type="text/plain"
+			title="LLMs Info"
+		/>
+
+		<!-- Fast Preconnect for Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+			media="print"
+			onload="this.media = 'all'"
+		/>
+		<noscript>
+			<link
+				rel="stylesheet"
+				href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+			/>
+		</noscript>
+	</head>
+	<body
+		class="min-h-screen bg-slate-100/70 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans antialiased selection:bg-primary/20 selection:text-primary"
+	>
+		<div id="app"></div>
+		<script type="module" src="./src/main.jsx"></script>
+	</body>
+</html>
