@@ -69,17 +69,17 @@ export function ExportCalendarModal() {
 				{/* Top Accent bar */}
 				<div className="h-2 w-full bg-gradient-to-r from-sky-500 via-blue-600 to-primary"></div>
 
-				<div className="p-6 sm:p-8 space-y-6">
+				<div className="p-5 sm:p-8 space-y-5 sm:space-y-6">
 					{/* Header */}
-					<div className="flex items-start justify-between gap-4">
-						<div className="flex items-center gap-3">
-							<div className="p-2.5 rounded-2xl bg-sky-50 text-sky-700 dark:bg-sky-950 dark:text-sky-300 border border-sky-200 dark:border-sky-800/80 shadow-2xs">
+					<div className="flex items-start justify-between gap-3 sm:gap-4">
+						<div className="flex items-center gap-3 min-w-0">
+							<div className="p-2.5 rounded-2xl bg-sky-50 text-sky-700 dark:bg-sky-950 dark:text-sky-300 border border-sky-200 dark:border-sky-800/80 shadow-2xs shrink-0">
 								<CalendarDays className="w-5 h-5" />
 							</div>
-							<div>
+							<div className="min-w-0">
 								<h3
 									id="modal-export-title"
-									className="text-lg sm:text-xl font-bold tracking-tight text-slate-900 dark:text-white"
+									className="text-base sm:text-xl font-bold tracking-tight text-slate-900 dark:text-white truncate sm:whitespace-normal"
 								>
 									Ekspor Seluruh Agenda
 								</h3>
@@ -93,7 +93,7 @@ export function ExportCalendarModal() {
 						<button
 							type="button"
 							onClick={closeModal}
-							className="btn btn-ghost btn-circle btn-sm text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+							className="btn btn-ghost btn-circle btn-sm text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white shrink-0"
 							aria-label="Tutup modal ekspor"
 						>
 							<X className="w-5 h-5" />
@@ -101,13 +101,15 @@ export function ExportCalendarModal() {
 					</div>
 
 					{/* Primary 1-Click Action */}
-					<div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/80 space-y-3">
-						<div className="flex items-center justify-between">
-							<span className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white flex items-center gap-1.5">
-								<Sparkles className="w-3.5 h-3.5 text-sky-600 dark:text-sky-400" />
-								<span>Unduh Berkas Kalender</span>
+					<div className="p-4 sm:p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/80 space-y-3">
+						<div className="flex items-center justify-between gap-2">
+							<span className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white flex items-center gap-1.5 min-w-0">
+								<Sparkles className="w-3.5 h-3.5 text-sky-600 dark:text-sky-400 shrink-0" />
+								<span className="truncate sm:whitespace-normal">
+									Unduh Berkas Kalender
+								</span>
 							</span>
-							<span className="badge badge-sm font-bold bg-sky-100 text-sky-950 border border-sky-300 dark:bg-sky-950 dark:text-sky-300 dark:border-sky-700">
+							<span className="shrink-0 whitespace-nowrap px-2.5 py-1 text-[11px] font-bold leading-none rounded-full bg-sky-100 text-sky-950 border border-sky-300 dark:bg-sky-950 dark:text-sky-300 dark:border-sky-700">
 								Format .ICS
 							</span>
 						</div>
@@ -123,10 +125,10 @@ export function ExportCalendarModal() {
 						<button
 							type="button"
 							onClick={handleDownloadAllIcs}
-							className="btn btn-primary w-full gap-2 rounded-xl shadow-xs font-bold"
+							className="btn btn-primary w-full py-2.5 sm:py-3 px-3 sm:px-4 h-auto min-h-[2.75rem] gap-2 rounded-xl shadow-xs font-bold text-xs sm:text-sm flex items-center justify-center text-center"
 						>
-							<Download className="w-4 h-4" />
-							<span>
+							<Download className="w-4 h-4 shrink-0" />
+							<span className="whitespace-normal leading-snug">
 								Unduh Seluruh Agenda ({totalCount} Agenda)
 							</span>
 						</button>
@@ -135,7 +137,7 @@ export function ExportCalendarModal() {
 					{/* Step-by-Step Google Calendar Import Guide */}
 					<div className="space-y-3">
 						<h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-white flex items-center gap-1.5">
-							<Info className="w-3.5 h-3.5 text-sky-600 dark:text-sky-400" />
+							<Info className="w-3.5 h-3.5 text-sky-600 dark:text-sky-400 shrink-0" />
 							<span>Cara Impor ke Google Calendar:</span>
 						</h4>
 
